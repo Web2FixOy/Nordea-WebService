@@ -49,7 +49,7 @@ $clientBuilder->addMiddleware($wsse);
 
 /** @var \Profit\Nordea\API\NordeaSoapClient $client */
 $client = $clientBuilder->build();
-
+// echo '<pre>';print_r($client); echo '</pre>';exit;
 $client->changeSoapLocation('https://filetransfer.nordea.com/services/CorporateFileService');
 
 /** @var \Profit\Nordea\API\SoapTypes\GetUserInfoResponse $response */

@@ -1,0 +1,34 @@
+<ApplicationRequest xmlns="http://bxd.fi/xmldata/">
+    <CustomerId>162355330</CustomerId>
+    <Command>GetUserInfo</Command>
+    <Timestamp>2017-08-28T17:08:59+03:00</Timestamp>
+    <Environment>PRODUCTION</Environment>
+    <SoftwareId>Ruby</SoftwareId>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+                <DigestValue>ASkw7DM8WajTQD1UBzEI0EwWOU4=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            fluH95RY33n3rOC6pklGXDiyWCOXXf1uPXbmKB3ys/FTX6Dsgq6Tk2QfqYTSY9/PaScqhsxG66z4/xJaSDBWFB7xlT9HIip2SWr/u2A2BnCgrz9b2eXj3dGnPOwdOLGw7kVEE64OivgjjmgRrRMl/kW52fUb7kGYM6E+t8Z7Ldc=
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509IssuerSerial>
+                    <X509IssuerName>System.Security.Cryptography.X509Certificates.X500DistinguishedName</X509IssuerName>
+                    <X509SerialNumber>38781</X509SerialNumber>
+                </X509IssuerSerial>
+                <X509Certificate>
+                    MIIC+zCCAeOgAwIBAgIDAJd9MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNVBAYTAlNFMR4wHAYDVQQKExVOb3JkZWEgQmFuayBBQiAocHVibCkxHzAdBgNVBAMTFk5vcmRlYSBDb3Jwb3JhdGUgQ0EgMDExFDASBgNVBAUTCzUxNjQwNi0wMTIwMB4XDTE3MDMxNTE0MjczM1oXDTE5MDMxNTE0MjczM1owRDELMAkGA1UEBhMCRkkxIDAeBgNVBAMMF05vcmRlYSBEZW1vIENlcnRpZmljYXRlMRMwEQYDVQQFEwo1NzgwODYwMjM4MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk2O8yUdB96rz0awNcQZS1yuwPGNyrl6sY8drigAqh8XcK29EQ0aX/ltG9ZxyYiVAaw3u7krTa9APMj10xTkfdj9dJvteYedLxFmxPcqUAJsHdBxXolJgcS79JTo0OkeaC80Kmt2+JnZHkC7TQYkHl9BFvP1zN+V5T02c8Q1Y8BwIDAQABo1owWDAJBgNVHRMEAjAAMBEGA1UdDgQKBAhOA09jI3eWHzATBgNVHSAEDDAKMAgGBiqFcEcBAzATBgNVHSMEDDAKgAhAC3XW288LpzAOBgNVHQ8BAf8EBAMCBaAwDQYJKoZIhvcNAQEFBQADggEBAEazBVX2p5iMiZZgAgf58BtJdYc3xtpB4WdkhJW3QLXH6m7RXh6etfVoOx7fKetHCfwYSCnuXJrOLOJJpuBLCEFao/3ah8f3xj0I5Dzp1MAwHcNS3ziKuhy6w0DEYpHsh+spHP1JNmXVwOlpuod70V6u/qjKHJ/T1jA8LjIj/rPzZ1Yvz8PvWiiPYkrm6DFlLAcdoldqORtCgM4G+4s3qZCDCgOl7e7BvdAxotL5zTd1VH8WlLivc4XImeRJKrMQm76Sf23A6H/hpbu4kgdK8SowJZszx7SNbWDdX2lnpOQfDTfVlfw+RL3T2cb0C5bEArn7CfSp62+00F1Mml1EDaQ=
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</ApplicationRequest>

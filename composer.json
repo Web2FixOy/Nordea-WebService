@@ -8,7 +8,7 @@
     ],
     "require": {
         "robrichards/wse-php": "^2.0",
-        "robrichards/xmlseclibs": "*",
+        "robrichards/xmlseclibs": "2.1.1",
         "weew/helpers-string": "^1.10",
         "sabre/dav": "^3.2",
         "phpro/soap-client": "^0.5.2",
